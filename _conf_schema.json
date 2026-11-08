@@ -1,0 +1,14 @@
+{
+  "owner_qq": {
+    "description": "主人 QQ 号",
+    "type": "string",
+    "default": "",
+    "hint": "只响应这个 QQ 号的 QQ 私聊。必须和 adapter_id 一起填；任意一项留空，插件就完全不生效。填 QQ 号本身（纯数字），不要带引号或其他前缀。"
+  },
+  "adapter_id": {
+    "description": "QQ 平台（aiocqhttp）适配器实例 ID",
+    "type": "string",
+    "default": "",
+    "hint": "填 AstrBot 后台「平台适配器」里这个 aiocqhttp 实例的 ID。插件按 适配器ID:FriendMessage:主人QQ 精确匹配主人私聊；填错或留空时所有功能都不响应。一般等于后台适配器页显示的实例 ID。"
+  }
+}

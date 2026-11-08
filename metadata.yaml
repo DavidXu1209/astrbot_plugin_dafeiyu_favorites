@@ -1,0 +1,17 @@
+name: astrbot_plugin_dafeiyu_favorites
+display_name: 表情与话术偏好收藏
+desc: |
+  主人在私聊里说「这张我喜欢」「这句我喜欢」时，把图片或话术收藏到本地；之后可按原图重发、按编号取回，或让模型学习收藏的语气。
+  只对配置里填的主人 QQ 私聊生效；图片下载只允许 QQ CDN 域名。
+  可选读取已安装的 meme_manager 插件表情包目录，用于重发它发送过的表情。
+version: 0.1.7
+author: David Xu
+repo: https://github.com/DavidXu1209/astrbot_plugin_dafeiyu_favorites
+astrbot_version: ">=4.16.0"
+support_platforms:
+  - aiocqhttp
+tags:
+  - 表情收藏
+  - 话术收藏
+  - 私聊
+  - 偏好学习
