@@ -15,7 +15,7 @@ MAX_REDIRECTS = 3
 # QQ CDNs answer plain bots with 403 or an HTML error page; a normal UA plus the
 # referer the QQ client sends keeps these sticker URLs readable.
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AstrBotFavorites/0.1.7",
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AstrBotFavorites/0.1.8",
     "Accept": "image/*",
     "Referer": "https://im.qq.com/",
     "Accept-Encoding": "identity",
